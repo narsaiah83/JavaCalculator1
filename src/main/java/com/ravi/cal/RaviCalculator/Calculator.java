@@ -31,8 +31,8 @@ public class Calculator {
 	public long mulFucn(long first, long second){
 		
 		return first*second;
+	} 
 
-	 
 	public long devided(long first, long second){
 
                 return first/second;
