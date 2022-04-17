@@ -33,14 +33,14 @@ public class Calculator {
 		return first*second;
 	} 
 
-	public long devided(long first, long second){
+	private int integerDivision(int a, int b){
+        if(b == 0)
+            return 0;
+        else
+            return a/b;
+   	}
 
-                return first/second;
-	}
-	
-	
-	public static void main(String[] args) {
-
+       public static void main(String[] args) {
 		long first = Long.parseLong(args[0]);
 		long second = Long.parseLong(args[1]);
 		
